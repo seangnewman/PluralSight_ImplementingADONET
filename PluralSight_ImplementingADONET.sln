@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADONET-Command", "ADONET-Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONET-Samples", "ADONET-Reader\ADONET-Samples\ADONET-Samples.csproj", "{A82D5F52-BFED-4D57-A21D-41BC47125C5B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADONET-Exceptions", "ADONET-Exceptions", "{3BEE14DD-67F1-4485-9F7D-C44F58202F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONET-Samples", "ADONET-Exceptions\ADONET-Samples.csproj", "{A633132D-FFEF-4C05-B9B9-9A0207475CF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{A82D5F52-BFED-4D57-A21D-41BC47125C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A82D5F52-BFED-4D57-A21D-41BC47125C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A82D5F52-BFED-4D57-A21D-41BC47125C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A633132D-FFEF-4C05-B9B9-9A0207475CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A633132D-FFEF-4C05-B9B9-9A0207475CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A633132D-FFEF-4C05-B9B9-9A0207475CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A633132D-FFEF-4C05-B9B9-9A0207475CF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{39D080BC-913D-46A7-BE83-870871C41E89} = {E05D97DF-A86F-45EA-9C2D-111D4E614A9A}
 		{A82D5F52-BFED-4D57-A21D-41BC47125C5B} = {CBF6ADAF-DF20-479B-9F0C-AB7D1F8450FB}
+		{A633132D-FFEF-4C05-B9B9-9A0207475CF1} = {3BEE14DD-67F1-4485-9F7D-C44F58202F8F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1B76683-334B-4919-B4F2-39C413DBBFE8}
